@@ -11,7 +11,7 @@ function calcularPromocao(){
     let desconto = preco / 2
     let total = preco * 2 + desconto
 
-    outProduto.textContent = produto + " - Promoção: Leve 3 por R$"
+    outProduto.textContent = produto + " - Promoção: Leve 3 por R$ " + total.toFixed(2)
     outPromocao.textContent = "O 3º produto apenas R$ " + desconto.toFixed(2)
 }
 
